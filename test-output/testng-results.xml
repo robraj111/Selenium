@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BDD Test Suite" duration-ms="31630" started-at="2020-06-30T20:46:05Z" finished-at="2020-06-30T20:46:36Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.runner.MyTestngRunner@47ef968d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="My Tests" duration-ms="31630" started-at="2020-06-30T20:46:05Z" finished-at="2020-06-30T20:46:36Z">
+      <class name="com.selenium.runner.MyTestngRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.selenium.runner.MyTestngRunner@47ef968d]" name="setUpClass" is-config="true" duration-ms="756" started-at="2020-06-30T20:46:05Z" finished-at="2020-06-30T20:46:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.runner.MyTestngRunner@47ef968d]" name="runScenario" duration-ms="13005" started-at="2020-06-30T20:46:06Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-30T20:46:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Loggin into rediffmoney"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Logging into rediff Money]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.runner.MyTestngRunner@47ef968d]" name="runScenario" duration-ms="9428" started-at="2020-06-30T20:46:19Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-30T20:46:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Loggin into rediffmoney page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Logging into rediff Money]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.selenium.runner.MyTestngRunner@47ef968d]" name="runScenario" duration-ms="8221" started-at="2020-06-30T20:46:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-06-30T20:46:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Loggin into rediffmoney page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Logging into rediff Money]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.selenium.runner.MyTestngRunner@47ef968d]" name="tearDownClass" is-config="true" duration-ms="189" started-at="2020-06-30T20:46:36Z" finished-at="2020-06-30T20:46:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.selenium.runner.MyTestngRunner -->
+    </test> <!-- My Tests -->
+  </suite> <!-- BDD Test Suite -->
+</testng-results>
